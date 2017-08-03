@@ -10,7 +10,7 @@ body {
 
 body {
 	background: #f3f9fa url("images/bg.png") repeat;
-	font: 14px/22px Arial;
+	font: 14px/22px Arial , Tahomam, sans-serif;
 	color: #444;
 }
 
@@ -20,6 +20,11 @@ a {
 
 a:hover {
 	text-decoration: none;
+}
+
+a img {
+	outline: 0;
+	border: 0;
 }
 
 h1 {
@@ -49,6 +54,7 @@ input,button,textarea {
 	border-radius: 3px;
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
+	font-family: inherit;
 }
 
 input[type="text"] {
