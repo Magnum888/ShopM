@@ -425,6 +425,48 @@ button:hover {
 	overflow: visible;
 }
 
+/*Пагинатор*/
+
+.pagination {
+	clear: both;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border: 1px solid #ccc;
+	overflow: hidden;
+	display: inline-block;
+}
+
+.pagination li {
+	float: left;
+	list-style-type: none;
+}
+
+.pagination li a,
+.pagination li.disabled {
+	display: block;
+	line-height: 30px;
+	vertical-align: middle;
+	background-color: white;
+	padding: 0 10px;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+.pagination li.disabled {
+	color: #999;
+}
+
+.pagination li.active a,
+.pagination li a:hover {
+	color: white;
+	background-color: #41b039;
+}
+
+.pagination li+li a {
+	border-left: 1px solid #ccc;
+}
+
 /*Подвал*/
 #footer {
 	height: 72px;
